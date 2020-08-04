@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Registration Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h1>My Registration Form</h1>
+        <form>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name"><br>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name = "last_name"><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br>
+            <label for="pw_confirm">PW Confirm:</label>
+            <input type="text" id="pw_confirm" name="pw_confirm"><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" name="birthday" id="birthday"><br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="other"><br>
+            <label for="description">A short description about yourself:</label><br>
+            <textarea name="description" rows="10" cols="30"></textarea><br>
+            <label for="fav_lang">Favorite Language:</label>
+            <select id="fav_lang" name="fav_lang">
+                <option value="javascript">JavaScript</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+                <option value="mern">MERN</option>
+            </select><br>
+            <input type="submit" value="Submit">
+
+        </form>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
